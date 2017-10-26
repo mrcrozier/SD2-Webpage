@@ -10,7 +10,7 @@
 
         <h1 class="title">Clever Coasters - a Coaster REST API</h1>
         <div id="homepage">
-            <h1>Find a coaster!!</h1>
+            <h1>Find a coaster</h1>
             <div id="coasters"></div>
         </div>
 
@@ -42,9 +42,9 @@
         return(
           <div id = "coaster-container">
           <form id = "search" onSubmit={this.handleSubmit}>
-            <label>Search by a table ID:</label>
-            <input type = "text" ref = "tableId" placeholder="tableId" />
-            <input type = "submit" value = "Return coaster associated to table"  />
+            <label>Search by a table, or leave blank to return all connected coasters:</label>
+            <input type = "text" ref = "tableId" placeholder="Table Number" />
+            <input type = "submit" value = "Return coasters"  />
           </form>
           <ul>{coasters}</ul>
           </div>

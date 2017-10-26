@@ -80,6 +80,9 @@ span.false{
     height: 10px;
     background: #ff5252;
 }
+span.coasterId {
+  float: right;
+}
 button{
     float: right;
     background: green;
