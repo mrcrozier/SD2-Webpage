@@ -9,6 +9,13 @@ router.get('/coasters', function(req, res, next){
     });
 });
 
+router.get('/coasters/:id', function(req, res, next){
+    Coaster.find({}).then(function(coasters){
+      res.send(coasters);
+    });
+});
+
+
 // add a new coaster to the db
 router.post('/coasters', function(req, res, next){
     Coaster.create(req.body).then(function(coaster){
