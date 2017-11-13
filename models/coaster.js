@@ -17,6 +17,10 @@ const CoasterSchema = new Schema({
     connected: {
         type: Boolean,
         default: false
+    },
+    cupPresent: {
+        type: Boolean,
+        default: false
     }
     // add in geo location
 });
