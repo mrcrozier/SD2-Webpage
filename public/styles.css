@@ -68,13 +68,13 @@ span.red{
   padding: 0px 0px;
   background: #ff5252;
 }
-span.green:{
+span.green{
   float: right;
   border-radius: 10px;
   width: 300px;
   height: 30px;
   padding: 0px 0px;
-    background: green;
+  background: green;
 }
 span.yellow{
   float: right;
@@ -82,7 +82,7 @@ span.yellow{
   width: 300px;
   height: 30px;
   padding: 0px 0px;
-    background: yellow;
+  background: yellow;
 }
 span.grey{
   float: right;
@@ -90,7 +90,7 @@ span.grey{
   width: 300px;
   height: 30px;
   padding: 0px 0px;
-    background: gray;
+  background: gray;
 }
 span.false{
   float: right;
@@ -98,7 +98,7 @@ span.false{
   width: 300px;
   height: 30px;
   padding: 0px 0px;
-    background: green;
+  background: green;
 }
 span.true{
   float: right;
@@ -106,7 +106,7 @@ span.true{
   width: 300px;
   height: 30px;
   padding: 0px 0px;
-    background: #ff5252;
+  background: #ff5252;
 }
 span.dark{
   float: right;
@@ -114,5 +114,5 @@ span.dark{
   width: 300px;
   height: 30px;
   padding: 0px 0px;
-    background: green;
+  background: green;
 }
