@@ -2,6 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
+
+
 // set up express app
 const app = express();
 
@@ -12,6 +14,7 @@ mongoose.Promise = global.Promise;
 // use express.static to serve static files
 // more useful at the top of the middleware stack
 app.use(express.static('./public'));
+//app.use(express.static('./routes'));
 
 // use body-parser middleware
 app.use(bodyParser.json());
@@ -28,4 +31,5 @@ app.use(function(err, req, res, next){
 // listen for requests
 app.listen(process.env.port || 4000, function(){
     console.log('now listening for requests');
+
 });
