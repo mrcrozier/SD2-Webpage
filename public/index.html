@@ -9,7 +9,7 @@
     </head>
     <body>
 
-        <h1 class="title">Clever Coasters - a Coaster REST API</h1>
+        <h1 class="title">Clever Coasters</h1>
         <div id="homepage">
             <h1>Find a coaster</h1>
             <div id="coasters"></div>
@@ -41,7 +41,7 @@
               <span className = {coaster.needsRefill}></span>
               <span className ="tableId"> Table {coaster.tableId}</span>
               <span className ="coasterId"> Coaster # {coaster.coasterId}</span>
-              <span className ="needsRefill">{coaster.needsRefill}</span>
+
             </li>
           );
         });
@@ -53,10 +53,6 @@
       );
     },
     handleSubmit: function(){
-
-      
-
-      //fetch('/api/coasters?tableId='+tableId+).then(function(data){
       fetch('/api/coasters/').then(function(data){
         return data.json();
       }).then( json => {

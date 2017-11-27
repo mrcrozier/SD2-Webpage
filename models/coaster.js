@@ -11,8 +11,8 @@ const CoasterSchema = new Schema({
         type: String
     },
     needsRefill: {
-        type: Boolean,
-        default: false
+        type: String,
+        default: 'red'
     },
     connected: {
         type: Boolean,

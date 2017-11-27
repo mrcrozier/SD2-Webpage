@@ -1,14 +1,14 @@
 body{
     font-family: Raleway;
     color: #555;
-    background: #ff5252;
+    background: #6a88b7;
     margin: 10px 30px;
 }
 #homepage{
     max-width: 800px;
     margin: 60px auto;
     padding: 10px 20px;
-    background: #fdfdfd;
+    background: #CAD8EE;
     border-radius: 4px;
     box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
 }
@@ -24,73 +24,95 @@ label{
     font-weight: bold;
 }
 .title{
-    color: #fff;
+    color: #eee;
     text-align: center;
     font-size: 48px;
 }
 #homepage h1{
     text-align: center;
 }
-form{
-    max-width: 350px;
-    margin: 30px auto;
-}
-input[type="submit"]{
-    background: #555;
-     color: #fff;
-     border: 0;
-     padding: 10px;
-     font-size: 18px;
-     width: 200px;
-     margin: 0 auto;
-     display: block;
-     cursor: pointer;
-     border-radius: 4px;
- }
 ul{
     margin: 0;
     padding: 0;
 }
-li{
-    padding: 15px 0;
-    background: #eee;
+li  {
+    padding: 10px 10px;
+    background: #C096D6;
     list-style-type: none;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: bold;
     margin: 10px 0;
     border-radius: 4px;
+    text-align: left;
+    padding-left: 0px;
 }
+
 span{
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 40px;
+    text-align: left;
 }
-span.refill{
-    color: green;
-    float: right;
+
+span.coasterId {
+  float right;
+
+
+
 }
-span.true{
-    border-radius: 10px;
-    width: 10px;
-    height: 10px;
+
+span.red{
+  float: right;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+  padding: 0px 0px;
+  background: #ff5252;
+}
+span.green:{
+  float: right;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+  padding: 0px 0px;
     background: green;
+}
+span.yellow{
+  float: right;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+  padding: 0px 0px;
+    background: yellow;
+}
+span.grey{
+  float: right;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+  padding: 0px 0px;
+    background: gray;
 }
 span.false{
-    border-radius: 10px;
-    width: 10px;
-    height: 10px;
+  float: right;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+  padding: 0px 0px;
+    background: green;
+}
+span.true{
+  float: right;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+  padding: 0px 0px;
     background: #ff5252;
 }
-span.coasterId {
+span.dark{
   float: right;
-}
-button{
-    float: right;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+  padding: 0px 0px;
     background: green;
-    border: 0;
-    padding: 5px 10px;
-    color: #fff;
-    display: inline-block;
-    border-radius: 4px;
-    cursor: pointer;
 }
-button.false{display: none;}
